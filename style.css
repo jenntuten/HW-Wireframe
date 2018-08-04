@@ -1,62 +1,63 @@
-body { font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+body {background: #777;
+font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 color: #777;
-text-align: center;
-background: #777;
 width: 960px;
-font-size: 18px;
+  margin: 0 auto;
+font-size: 18px;}
+
+div {
+  background: #ebebeb;
+  text-align: center;
+}
+.header, .nav
+{height: 80px;
+  line-height: 80px;
+margin-bottom: 5px;
 }
 
-header { 
-    padding: 20px;
-    margin: 20px;
-    background: #ebebeb;}
-
-nav {
-    padding: 20px;
-    margin: 20px;
-    background: #ebebeb;}
-
-section { 
-    float: left;
-    background: #ebebeb;
-width: 55%; 
-padding: 20px;
-margin: 20px;
+.container{
+  width: 960px;
+}
+.section {
+  float: left;
+  padding: 20px;
+  width: 455px;
+  min-height: 232px;
+  
 }
 
-.steps {
-   
-    padding: 20px;
-    margin: 20px;
-    background: #ebebeb;
-    color: #777;
-    }
-
-.more {
- 
-    padding: 20px;
-    margin: 20px;
-    background: #ebebeb;
-    color: #777;
+.article {
+  background: #777;
+  position: relative;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  width: 440px;
+  color: #ebebeb;
 }
-.fullArticle { 
-    float: left;
-     padding: 20px;
-    margin: 20px;
+p, h1 {min-height: 40px;
+  padding: 6px;
+line-height: 36px;}
+
+.paragraphs 
+{position: relative;
+margin: 0 auto;
+width: 420px;
+color: #777;
 }
-aside { 
-    float: right;
-    padding: 20px;
-    margin: 20px;
-    width: 25%;
-    background: #ebebeb;}
 
-footer { 
-    clear: both;
-    padding: 20px;
-    margin: 20px;
-    background: #ebebeb;}
-
-article {color: #ebebeb;
+.aside {
+  float: right;
+  width: 46%;  
+  min-height: 272px;
+}
+.footer {clear: both;
 background: #777;
-}  
+height: 85px;}
+
+.footer2
+{position: relative;
+background: #ebebeb;
+height: 80px;
+  line-height: 80px;
+top: 5px;}
